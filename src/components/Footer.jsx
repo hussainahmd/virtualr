@@ -8,11 +8,9 @@ const Footer = () => {
           <ul className="space-y-2">
             {resourcesLinks.map((link, index) => (
               <li key={index}>
-                <a
-                  href={link.href}
-                  className="text-neutral-300 hover:text-white"
-                >
-                  {link.text}
+                <a href={link.href} className="relative inline-flex items-center justify-center overflow-hiddenx transition duration-300 ease-in-out rounded-md shadow-xl group text-neutral-300 hover:text-white">
+                  <span className="absolute bottom-0 w-0 group-hover:w-full h-[1px] -z-20 transition-all duration-300 bg-white ease-in-out"></span>
+                  <span className="relative">{link.text}</span>
                 </a>
               </li>
             ))}
@@ -23,11 +21,9 @@ const Footer = () => {
           <ul className="space-y-2">
             {platformLinks.map((link, index) => (
               <li key={index}>
-                <a
-                  href={link.href}
-                  className="text-neutral-300 hover:text-white"
-                >
-                  {link.text}
+                <a href={link.href} className="relative inline-flex items-center justify-center overflow-hiddenx transition duration-300 ease-in-out rounded-md shadow-xl group text-neutral-300 hover:text-white">
+                  <span className="absolute bottom-0 w-0 group-hover:w-full h-[1px] -z-20 transition-all duration-300 bg-white ease-in-out"></span>
+                  <span className="relative">{link.text}</span>
                 </a>
               </li>
             ))}
@@ -38,11 +34,9 @@ const Footer = () => {
           <ul className="space-y-2">
             {communityLinks.map((link, index) => (
               <li key={index}>
-                <a
-                  href={link.href}
-                  className="text-neutral-300 hover:text-white"
-                >
-                  {link.text}
+                <a href={link.href} className="relative inline-flex items-center justify-center overflow-hiddenx transition duration-300 ease-in-out rounded-md shadow-xl group text-neutral-300 hover:text-white">
+                  <span className="absolute bottom-0 w-0 group-hover:w-full h-[1px] -z-20 transition-all duration-300 bg-white ease-in-out"></span>
+                  <span className="relative">{link.text}</span>
                 </a>
               </li>
             ))}

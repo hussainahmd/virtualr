@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
-          <div className="flex items-center flex-shrink-0">
+          <div className="flex items-center flex-shrink-0 cursor-pointer">
             <img className="h-10 w-10 mr-2" src={logo} alt="Logo" />
             <span className="text-xl tracking-tight">VirtualR</span>
           </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <span className="absolute bottom-0 right-0 block w-full h-full transition duration-300 rounded-md -z-20 bg-white -translate-x-[100%] group-hover:-translate-x-[0%] ease-in-out"></span>
                 <span className="group-hover:text-black transition-all">Sign In</span>
               </a>
-              <a href="#_" className="relative inline-flex items-center justify-center min-h-s[200px] px-3 overflow-hidden font-medium text-white transition duration-300 ease-out rounded-md shadow-xl group hover:ring-1 hover:ring-white">
+              <a href="#_" className="relative inline-flex items-center justify-center px-3 overflow-hidden font-medium text-white transition duration-300 ease-out rounded-md shadow-xl group hover:ring-1 hover:ring-white">
                 <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-orange-500 to-orange-800 -z-20"></span>
                 <span className="absolute bottom-0 right-0 block w-full h-full transition duration-300 origin-left -z-20 transform bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 opacity-70 -translate-x-[100%] group-hover:-translate-x-[0%] ease-in-out"></span>
                 <span className="relative text-white">Create an account</span>
